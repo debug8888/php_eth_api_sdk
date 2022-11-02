@@ -181,7 +181,7 @@ function token_transfer_from($from , $to , $private_key , $amount , $contract , 
     }
 }
 //$amount = "1" ;
-//token_transfer_from($from , '0x86fef9e17a8ee5960b453d00b99bcd743b0e5443' , '0x18e8f63b043ac8826b4d0de0f2d1a646114d34706da444d6b4777c9e9a427e1f' , $amount , $contract , $abi ) ;
+//token_transfer_from($from , 'xxxxxxxxxxx' , 'xxxxxxxx' , $amount , $contract , $abi ) ;
 
 //主币的最新交易
 
@@ -228,7 +228,7 @@ function queryContractApproveLog(){
     global $eth  , $contract  ;
     while(1){
         try{
-            $data = $eth->queryContractApproveLog($contract , "0x6E36B0827143d2077803c8B5528e74140bfcc777");
+            $data = $eth->queryContractApproveLog($contract , "xxxxxxxxxxxxxxxxxx");
             if(!empty($data)){
                 // $str = var_export($data , true ) ;
                 foreach ($data as $kk => $vv){
