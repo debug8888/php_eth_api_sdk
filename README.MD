@@ -1,5 +1,5 @@
 # PHP 以太坊 BSC链 接口 SDK 区块链接口 币安智能链
-
+# 文档地址 ： https://debug8888.gitbook.io/php-bsc-eth-lian/
 ## 1：创建钱包地址
 ## 2: 还原助记词
 ## 3：主币转账
